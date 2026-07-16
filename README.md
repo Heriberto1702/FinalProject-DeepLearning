@@ -21,7 +21,14 @@ Ambos modelos se entrenan y evalúan sobre el mismo dataset, precedidos por un A
 
 ## Guía de ejecución paso a paso
 
-Se recomienda ejecutar los notebooks **en este orden**, ya que el EDA justifica las decisiones tomadas en los dos modelos:
+Primeramente, se necesita crear un environment de tu preferencia con un nombre cualquiera, luego ejecutar estos comandos:
+
+- conda create -n proyectofinal python=3.11
+- conda activate pryectofinal
+- pip install -r requirements-base.txt
+- pip install -r requirements-cuda.txt
+
+Posterior se recomienda ejecutar los notebooks **en este orden**, ya que el EDA justifica las decisiones tomadas en los dos modelos:
 
 ### Paso 1 — Análisis Exploratorio de Datos
 **Notebook:** `03_EDA_Pneumonia.ipynb`
