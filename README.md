@@ -55,6 +55,14 @@ No se requiere GPU para este notebook; corre rápido incluso en CPU.
 5. La sección de evaluación reporta el accuracy sobre el conjunto `test` oficial, igual que en el baseline — esto permite comparar ambos modelos de forma directa.
 6. (Opcional) Igual que en el baseline, se pueden clasificar imágenes propias colocándolas en `images_sample/`.
 
+
+## Resultados esperados (referencia)
+
+| Modelo | Accuracy validación | Accuracy test |
+|---|---|---|
+| CNN Baseline (desde cero) | ~97.5% | ~78.2% |
+| Transfer Learning (ResNet18) | ~98.1% | ~81.4% |
+
 Y eso seria todo.
 
 Gracias de antemano Freddy!
