@@ -1,0 +1,5 @@
+# Common dependencies for all environments
+matplotlib>=3.8
+jupyter>=1.0
+pandas>=2.2
+ipykernel>=6.0
